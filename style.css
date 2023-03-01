@@ -14,7 +14,7 @@ body {
   background-color: #f2f2f7;
   transition: 0.4s;
 }
-body.dark {
+body.dark{
   background-color: #212121;
   color: white;
 }
@@ -104,15 +104,17 @@ nav li{
 
 nav li a{
   color: #f2f2f7;
+  text-decoration: none;
 }
 
 nav li a:hover{
-  background: #e6ba0d;
+  background: #6e98ec;
   border:2px solid black;
   color: #37393f;
   font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 15px;
+  font-size: 14px;
+  /*text-transform: uppercase;*/
+  border-radius:5px;
 }
 /*foto Maquinas*/
 .maquinas{
@@ -137,6 +139,7 @@ nav li a:hover{
 .escavacoes h1{
   font-size: 30px;
   text-align: center;
+ /* background-color: rgb(194, 187, 187);*/
 }
 .servicos{
   display: flex;
